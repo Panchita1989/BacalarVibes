@@ -1,0 +1,57 @@
+body{
+    position: relative;
+    margin: 0;
+    min-height: 100vh;
+}
+body::before{
+    content: '';
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url(assets/rapidos.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    opacity: 0.48;
+    z-index: -1;
+}
+
+.emoji {
+    font-family: 'Noto Color Emoji', 'Segoe UI Emoji', system-ui, sans-serif;
+  }
+header {
+
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.emoji{ 
+  position: fixed;
+  right: 0;
+  margin-right: 15px;
+  background-color: rgb(204, 234, 243);
+}
+nav{
+    display: flex;
+    flex-direction: column;
+}
+main{
+    text-align: center;
+    color: rgb(6, 4, 21);
+    margin-top: 80px;
+}
+main h1{
+    font-size: 40px;
+}
+.options{
+    height: 200px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 100px;
+}
+  
