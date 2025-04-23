@@ -35,8 +35,8 @@ async function loadLanguage(lang) {
         const data =await res.json()
 
         langElements.title.textContent = data.title
-        langElements.navTours.textContent = data.nav.tours
-        langElements.navRestaurant.textContent = data.nav.restaurantes
+        //langElements.navTours.textContent = data.nav.tours
+        //langElements.navRestaurant.textContent = data.nav.restaurantes
         langElements.subtitle.textContent = data.subtitle
         langElements.description.textContent = data.description
     }
